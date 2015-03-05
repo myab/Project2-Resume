@@ -8,14 +8,14 @@
   overflow: auto;
 }
 
-.education-entry, .work-entry, .project-entry {
+.education-entry, .work-entry, .project-entry, .online-entry {
   padding-left: 5%;
   padding-right: 5%;
 }
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  color: #FFFAF0;
   line-height: 48px;
   display: inline;
 }
@@ -80,14 +80,21 @@ a {
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
+  font-size: 30px;
+  color: #999999;
   line-height: 28px;
+  font-weight: bolder;
+}
+
+.subWelcome-message {
+  font-size: 20px;
+  color: #1199C3;
+  line-height: 28px;
+  font-weight: bold;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #1199C3;
   /*display: none;*/
 }
 
@@ -96,7 +103,7 @@ a {
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #F8F8FF ;
 }
 
 .white-text {
@@ -116,7 +123,22 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: ##F3F3F3;
+}
+
+
+/* custom css*/
+.blue-text {
+  font-weight: bold;
+  color: #1199C3;
+}
+
+.customContact {
+  background-color: #1199C3;
+  padding-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0.5%;
 }
 
 .flex-box {
@@ -125,14 +147,14 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
+  padding: 5px;
 }
 
 .center-content {
   padding-top: 2.5%;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 2.5%
+  padding-bottom: 2.5%;
 }
 
 ul {
