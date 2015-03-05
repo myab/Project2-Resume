@@ -79,36 +79,9 @@ a {
   display: block;
 }
 
-.welcome-message {
-  font-size: 30px;
-  color: #999999;
-  line-height: 28px;
-  font-weight: bolder;
-}
-
-.subWelcome-message {
-  font-size: 20px;
-  color: #1199C3;
-  line-height: 28px;
-  font-weight: bold;
-}
-
 #skillsH3 {
   color: #1199C3;
   /*display: none;*/
-}
-
-.orange {
-  background-color: #F5AE23;
-}
-
-.orange-text {
-  color: #F8F8FF ;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
 }
 
 .gray {
@@ -117,28 +90,9 @@ a {
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4A4A4A;
-}
-
 /* TODO: Replace with image later */
 #header {
   background-color: ##F3F3F3;
-}
-
-
-/* custom css*/
-.blue-text {
-  font-weight: bold;
-  color: #1199C3;
-}
-
-.customContact {
-  background-color: #1199C3;
-  padding-top: 0.5%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 0.5%;
 }
 
 .flex-box {
@@ -234,4 +188,52 @@ span {
   .biopic {
     display: block;
   }
+}
+
+/* custom css*/
+
+.welcome-message {
+  font-size: 30px;
+  color: #999999;
+  line-height: 28px;
+  font-weight: bolder;
+}
+
+.subWelcome-message {
+  font-size: 20px;
+  color: #1199C3;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+.blue-text {
+  font-weight: bold;
+  color: #1199C3;
+}
+
+.orange-text {
+  color: #F8F8FF ;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.customContact {
+  background-color: #1199C3;
+  padding-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0.5%;
+}
+
+.dark-gray {
+  background-color: #1199C3;
+}
+
+.orange {
+  background-color: #999999;
+  color: #FFFAF0;
+  font-size: 30px
 }
